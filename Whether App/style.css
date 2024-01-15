@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Belanosima&family=Inter&family=Rubik:wght@300;400&family=Ubuntu&display=swap');
+
+#heading{
+    text-align: center;
+    font-family: 'Belanosima', sans-serif;
+    font-size: 2rem;
+    padding: 0.4rem 0px;
+    color : orange;
+    text-shadow: 2px 2px 1px black;
+}
+
+body{
+    background-color: rgb(102, 159, 233);
+    font-family: 'Inter', sans-serif;
+}
+
+
+
+.container{
+    height: ;
+    width: 100%;
+}
+
+.whether{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgba(173, 204, 193, 0.6);
+    border-radius: 15px;
+    padding: 10px;
+    margin: auto;
+    width: 400px;
+    color : white ;
+
+}
+
+.whether-info{
+    display: flex ;
+    flex-direction: column;
+    align-items: center;
+    gap: 1px;
+}
+
+.whether-info  h1{
+     font-size: 50px ;
+     
+}
+
+#country{
+    font-size: 25px;
+}
+
+
+.whether-info img{
+    height: 100px;
+    width: 100px;
+}
+
+#search{
+    display: flex;
+    justify-content: space-between;
+    background: rgba(253, 251, 251, 0.5);
+    border-radius: 10px;
+    width: 320px;
+    padding: 5px 20px;
+
+}
+#search input{
+    height: 20px;
+    flex: 1;
+    width: 200px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    margin-top: 5px;
+}
+
+#btn{
+    height: 30px;
+    width: 30px;
+    background-color: orange;
+    text-align: center;
+    border: none;
+    outline: none;
+    color: white;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+
+.col-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px;
+    margin-top: 20px;
+    width: 80%;
+}
+
+.col-container .col{
+    display: flex;
+    flex-direction: column;
+}
+
+.humidity , .wind-speed{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.humidity img , .wind-speed img {
+    height: 40px;
+    width: 40px;
+}
+
+.humidity span , .wind-speed span {
+   font-size: 20px;
+   font-weight: 500;
+}
+
+.displayNone{
+    display: none;
+}
